@@ -70,7 +70,7 @@ public class BST{
 	private void BFSHelper(ArrayList<Node> curr, int i, int iter){
 		int iterparam = iter+1;
 		if(curr.isEmpty()){
-			System.out.println("Couldn"t find " + i + " in BST using BFS.");
+			System.out.println("Couldn't find " + i + " in BST using BFS.");
 			return;
 		}
 		ArrayList<Node> al = new ArrayList<Node>();
